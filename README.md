@@ -42,7 +42,7 @@ VALUES
  mvn clean install
  ~~~
 
- Once the Enum Loader is setup, you can proceed to importing KJAR so you can actually see the Enums in action.
+ Once the Enum Loader is setup, you can proceed with importing KJAR so you can actually see the Enums in action.
 
  - Start the RHPAM / RHDM and and log into the business-central
  - Import the repository with the example KJAR. The repository is located at [this URL on github](https://github.com/agiertli/SampleEnumKjar.git)
@@ -55,6 +55,9 @@ VALUES
 The above enum includes dependency between attribute region and name. In practice, it means that whenever specific region (India,Japan,..) is selected, only country specific enum values will be displayed to the end user.
 
 Sample values for Japan:
+
 ![Japan values](https://ctrlv.cz/shots/2019/04/08/mG5W.png)
+
 Sample values for India:
+
 ![India values](https://ctrlv.cz/shots/2019/04/08/RfJ2.png)
