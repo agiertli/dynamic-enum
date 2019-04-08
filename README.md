@@ -1,5 +1,7 @@
-This example contains a helper class which allows to enumeration values from the database.
-These values will be then in business-central for authoring.
+This example contains a helper class which allows to load enumeration values from the database.
+These values will be then used in business-central for authoring.
+
+Enumeration are loaded from database every time the Guided Decision Table is opened.
 
 Provided that you have RHPAM (or RHDM) 7.3 installed, you can utilize this example like this (PostgreSQL is used in this demo):
 
