@@ -16,7 +16,7 @@ Provided that you have RHPAM (or RHDM) 7.3 installed, you can utilize this examp
   ~~~
 - Configure the JBoss EAP datasource - change the values so they fit your environment:
 ~~~
-/subsystem=datasources/data-source=CliDatasource:add(jndi-name=java:/java:jboss/datasources/EnumDS,driver-name=postgresql-42.2.5.jar,connection-url=jdbc:postgresql://localhost:5432/productcodes,user-name=agiertli,password=agiertli)
+/subsystem=datasources/data-source=CliDatasource:add(jndi-name=java:jboss/datasources/EnumDS,driver-name=postgresql-42.2.5.jar,connection-url=jdbc:postgresql://localhost:5432/productcodes,user-name=agiertli,password=agiertli)
 ~~~
 - Create the example DB table which will hold your enum values:
 ~~~
