@@ -35,7 +35,16 @@ VALUES
 (3,E'Kinedril',E'Japan'),
 (4,E'Paralen',E'Japan'),
 (5,E'Acylpirin',E'India'),
-(6,E'Coldrex',E'Japan');
+(6,E'Coldrex',E'Japan'),
+(7,E'Acylpirin',E'China'),
+(8,E'Acylpirin',E'Spain'),
+(9,E'Acylpirin',E'UK'),
+(10,E'Acylpirin',E'Ireland'),
+(11,E'Acylpirin',E'Norway'),
+(12,E'Acylpirin',E'Australia'),
+(13,E'Coldrex',E'Australia'),
+(14,E'Celaskon',E'Norway'),
+(15,E'Hot-Flu',E'China');
 ~~~
 - Install the enum-loader project to your local maven repository:
  ~~~
