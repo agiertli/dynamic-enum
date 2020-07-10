@@ -3,7 +3,7 @@ These values will be then used in business-central for authoring.
 
 Enumeration are loaded from database every time the Guided Decision Table is opened.
 
-Provided that you have RHPAM (or RHDM) 7.3 installed, you can utilize this example like this (PostgreSQL is used in this demo):
+Provided that you have RHPAM (or RHDM) 7.7 installed, you can utilize this example like this (PostgreSQL is used in this demo):
 
 
 - Download PostgreSQL driver from [PostgreSQL website](https://jdbc.postgresql.org/download.html)
